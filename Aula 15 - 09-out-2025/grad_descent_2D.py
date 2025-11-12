@@ -33,6 +33,7 @@ def coords2pixels(x, d, img):
 
   return px
 
+
 px = coords2pixels(x, (-5., 15.), fgrid)
 plot_ptx, = plt.plot([px[0]], [px[1]], '.', color='lime', markersize=20, linestyle='none')
 

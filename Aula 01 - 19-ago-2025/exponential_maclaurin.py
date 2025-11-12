@@ -4,7 +4,6 @@ from matplotlib import pyplot as plt
 plt.ion()
 fig, (ax1, ax2) = plt.subplots(2, 1)
 
-
 dx = 1.
 xmax = 5.
 xmin = -5.
@@ -21,9 +20,7 @@ x = np.linspace(xmin, xmax, n, dtype='float32')
 y = np.exp(x, dtype='float32')
 ax1.plot(x, y, 'r+')
 
-
 _ = input(" ")
-
 
 dx = 0.05
 n = int((xmax - xmin) / dx)

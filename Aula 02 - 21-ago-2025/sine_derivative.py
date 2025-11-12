@@ -8,7 +8,6 @@ fig2, (ax3, ax4) = plt.subplots(2, 1)
 fig1.suptitle("Aproximação com Erro de Ordem Linear")
 fig2.suptitle("Aproximação com Erro de Ordem Quadrática")
 
-
 dx = 0.1
 xmax = 2. * np.pi
 xmin = 0.
@@ -23,7 +22,6 @@ ax3.plot(x, y_cos)
 ax4.plot(x, np.abs(y_cos - y_cos))
 
 _ = input(" ")
-
 
 for dx in [np.pi * 0.2, 
            np.pi * 0.1, 
